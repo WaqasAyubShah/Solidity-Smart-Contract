@@ -5,6 +5,8 @@ i. Remix loads for the very first time
 ii. A new workspace is created with 'Default' template
 iii. There are no files existing in the File Explorer
 
+I added my practise session to this as well. and revisit some concept which i never used in a while
+
 This workspace contains 3 directories:
 
 1. 'contracts': Holds three contracts with increasing levels of complexity.

@@ -9,6 +9,9 @@ pragma solidity >=0.8.2 <0.9.0;
  */
 contract Storage {
 
+    //general declaration way will be 
+    //Type visibality name 
+
     uint256 number;
     
     struct Person{
@@ -18,6 +21,9 @@ contract Storage {
 
     //Dynamic arrays
     Person[] public listofPeoples;
+
+    //Mapping
+    mapping(string => uint256) public nametofvrtNumber;
 
     // //Now lets call struct and save some data;
     // Person public jhon = Person({fvrtNumber: 5, name: "jhon"});
@@ -53,6 +59,7 @@ contract Storage {
     function addPerson(uint256 _fvrtNumber, string memory _name) public{
         //_name = "hayat";
         listofPeoples.push(Person(_fvrtNumber, _name));
+        nametofvrtNumber[_name] = _fvrtNumber;
     }
     //calldata can't be change, but memory and storage can be change, while storage is used for long term storage
     //memory is used as temprary var. 
