@@ -32,10 +32,7 @@ contract Storage {
     //     listofPeoples.push(newPerson);
     // }
     
-    //Second method to do it is directly pass the data
-    function addPerson(uint256 _fvrtNumber, string memory _name) public{
-        listofPeoples.push(Person(_fvrtNumber, _name));
-    }
+   
     /**
      * @dev Store value in variable
      * @param num value to store
@@ -51,4 +48,12 @@ contract Storage {
     function retrieve() public view returns (uint256){
         return number;
     }
+
+    //calldata, memory, storage 
+    function addPerson(uint256 _fvrtNumber, string memory _name) public{
+        //_name = "hayat";
+        listofPeoples.push(Person(_fvrtNumber, _name));
+    }
+    //calldata can't be change, but memory and storage can be change, while storage is used for long term storage
+    //memory is used as temprary var. 
 }
