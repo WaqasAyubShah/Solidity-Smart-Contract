@@ -7,6 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "jhon",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "fvrtNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -29,6 +47,24 @@
 				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wiki",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "fvrtNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -76,11 +112,11 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
+			"keccak256": "0x498bdf8b4fb3dca1a14b3bcaf82625b4b055ce1b0354fd2d31166e8e9c40b6e6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
-				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
+				"bzz-raw://7c1b511a9efa88119288e360a2ff6d9f5b3b205eb60d38b8d55ccd12e5eeb78e",
+				"dweb:/ipfs/QmcQG95cG2KU9sh5M43YduRZiksAWcb2xrA69po1HmijAb"
 			]
 		}
 	},

@@ -10,6 +10,15 @@ pragma solidity >=0.8.2 <0.9.0;
 contract Storage {
 
     uint256 number;
+    
+    struct Person{
+        uint256 fvrtNumber;
+        string name;
+    }
+    //Now lets call struct and save some data;
+    Person public jhon = Person({fvrtNumber: 5, name: "jhon"});
+    Person public wiki = Person({fvrtNumber: 7, name: "wiki"});
+    //The problem with struct is we have to call it again and again. 
 
     /**
      * @dev Store value in variable
