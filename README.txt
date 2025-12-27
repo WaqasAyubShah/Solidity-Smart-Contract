@@ -28,3 +28,32 @@ Output from script will appear in remix terminal.
 Please note, require/import is supported in a limited manner for Remix supported modules.
 For now, modules supported by Remix are ethers, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+
+
+
+AI Promote:
+
+iam have difficult time in understanding the code, can you explain
+
+...
+myStorage = new Storage();
+...
+
+Full code is here:
+
+...
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.8.2 <0.9.0;
+
+import "./1_Storage.sol";
+
+contract StorageFactory{
+    //Call the contract from other and you can deply it from calling the function...
+    Storage public myStorage;
+    //Start with somple function
+    function CreateSampleStorageFactroy() public {
+        myStorage = new Storage();
+    }
+}
+...
