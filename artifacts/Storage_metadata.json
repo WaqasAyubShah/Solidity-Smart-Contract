@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -111,7 +111,7 @@
 					}
 				}
 			},
-			"title": "Storage",
+			"title": "Storage & Storage Factory",
 			"version": 1
 		},
 		"userdoc": {
@@ -122,7 +122,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "Storage"
+			"contracts/StorageFactory.sol": "Storage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -136,12 +136,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0xd737fb609625fa745b04583b73044ccd82b4467b35bd0626b16fdd08a81274cd",
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x40c1da456cfaac8074aebe08f7116bd196c592a73f22ae17f6cfabff99fc991b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3be86c4b88a0ed1a5f237429065379bf0c6262533ef4c8dbd916e0a5cabc1aa1",
-				"dweb:/ipfs/QmYbgLU6G6T2ThuLQdGKY8fDXNU5XNpECg9UpUX41Cy3bW"
+				"bzz-raw://e814637f800a04092d0eb008779ffb50a96e8193c60c401d756b487c7045fa71",
+				"dweb:/ipfs/Qma8Xzn3wtjXQ3f1BAyQ9aLpxYMGFD3U93PMdKuXaEMLBu"
 			]
 		}
 	},

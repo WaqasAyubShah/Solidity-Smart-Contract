@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CreateSampleStorageFactroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myStorage",
+				"outputs": [
+					{
+						"internalType": "contract Storage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x40c1da456cfaac8074aebe08f7116bd196c592a73f22ae17f6cfabff99fc991b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e814637f800a04092d0eb008779ffb50a96e8193c60c401d756b487c7045fa71",
+				"dweb:/ipfs/Qma8Xzn3wtjXQ3f1BAyQ9aLpxYMGFD3U93PMdKuXaEMLBu"
+			]
+		}
+	},
+	"version": 1
+}
