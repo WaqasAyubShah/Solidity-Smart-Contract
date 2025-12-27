@@ -80,23 +80,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "sayHello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -113,12 +100,6 @@
 					"details": "Return value ",
 					"returns": {
 						"_0": "value of 'number'"
-					}
-				},
-				"store(uint256)": {
-					"details": "Store value in variable",
-					"params": {
-						"num": "value to store"
 					}
 				}
 			},
@@ -147,19 +128,19 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0xd737fb609625fa745b04583b73044ccd82b4467b35bd0626b16fdd08a81274cd",
+			"keccak256": "0x738ae2cd76bd3310efa4fb3ddb4e7cfc45c3c52a69e888ebd735c7f061d1071b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3be86c4b88a0ed1a5f237429065379bf0c6262533ef4c8dbd916e0a5cabc1aa1",
-				"dweb:/ipfs/QmYbgLU6G6T2ThuLQdGKY8fDXNU5XNpECg9UpUX41Cy3bW"
+				"bzz-raw://dba9015dd5c1d8236220022a5217ded3ec5a14de873ce32dfc0406ab4a6b2fe3",
+				"dweb:/ipfs/QmNjFpmfEfoVpqWrLCS3Ad6z4VVHiwkx8GEiMbPVPsXx63"
 			]
 		},
 		"contracts/AddFivetoStore.sol": {
-			"keccak256": "0xc257ea20f2f454a3fb5b18698d76fd102ccc5e065e5c6a9f688e1d59130360e0",
+			"keccak256": "0x60de34071de140064839df5810d19c24c7495832d42a71b95304f2ce7de6208b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://117470a1710938f0ea137ee68d8864fee1bd85f9ef5953025d2275e193993df6",
-				"dweb:/ipfs/QmUYuL8K4nSZKWwsuSU2CB2isjniyC85j9XidP4A8Fh1Qy"
+				"bzz-raw://cf5ac4430f6eacfd9eefe7dc931fbff721dc82bfdc4466ee253df83ae095edda",
+				"dweb:/ipfs/QmV7asBBUUQd3b7dSx2FRHuntwLppHm98WPi2nQjyrNMTu"
 			]
 		}
 	},

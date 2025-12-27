@@ -111,7 +111,7 @@
 					}
 				}
 			},
-			"title": "Storage & Storage Factory",
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -122,7 +122,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/StorageFactory.sol": "Storage"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -136,12 +136,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/StorageFactory.sol": {
-			"keccak256": "0x40c1da456cfaac8074aebe08f7116bd196c592a73f22ae17f6cfabff99fc991b",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x738ae2cd76bd3310efa4fb3ddb4e7cfc45c3c52a69e888ebd735c7f061d1071b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e814637f800a04092d0eb008779ffb50a96e8193c60c401d756b487c7045fa71",
-				"dweb:/ipfs/Qma8Xzn3wtjXQ3f1BAyQ9aLpxYMGFD3U93PMdKuXaEMLBu"
+				"bzz-raw://dba9015dd5c1d8236220022a5217ded3ec5a14de873ce32dfc0406ab4a6b2fe3",
+				"dweb:/ipfs/QmNjFpmfEfoVpqWrLCS3Ad6z4VVHiwkx8GEiMbPVPsXx63"
 			]
 		}
 	},

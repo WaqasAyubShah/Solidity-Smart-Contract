@@ -6,8 +6,12 @@ import {Storage} from "./1_Storage.sol";
 
 contract AddFivetoStore is Storage{
     //let say hello to the old Storage contract first
-    function sayHello() public pure returns(string memory){
-        return "Hello";
-    }
+    // function sayHello() public pure returns(string memory){
+    //     return "Hello";
+    // }
 
+    //virtual and override
+    function store(uint256 _newNumber) public override {
+        number = _newNumber + 5;
+    }
 }
