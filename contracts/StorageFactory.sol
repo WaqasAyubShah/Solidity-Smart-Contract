@@ -22,7 +22,7 @@ contract StorageFactory{
     }
 
     function sfGet(uint256 _samplestorageIndex) public view returns(uint256){
-        Storage myStorage = mylistofStorageContract[_samplestorageIndex];
-        return myStorage.retrieve();
+        //another way to write the same code
+        return mylistofStorageContract[_samplestorageIndex].retrieve();
     }
 }

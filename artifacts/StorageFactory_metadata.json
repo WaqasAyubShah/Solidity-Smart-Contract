@@ -105,11 +105,11 @@
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0x650e36669e4a0cf0ca2435f24ae57c2f425f77fe8ac5d27b9bfc709d113a69c6",
+			"keccak256": "0x91e6413ab720a202d5da395a40a9497f607741a097579b0e079946ae2ee7529b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bcc90e2e82ffb1990ef84ec02505555f842239bfcd4010756fa5d125c987bfb6",
-				"dweb:/ipfs/QmcSGQ4r7USfSMqM6ipCawTvCseD2RKwEvsAZUddVBW1eV"
+				"bzz-raw://af9132820217f048236d961527dfe0dd0496df1957e4b333c493904a214aaf14",
+				"dweb:/ipfs/QmV7daCnebAnXWhxCfNjEi65BenjhiFsMiSne41C2WPri3"
 			]
 		}
 	},
