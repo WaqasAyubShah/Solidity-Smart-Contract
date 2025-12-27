@@ -13,8 +13,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "myStorage",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "mylistofStorageContract",
 				"outputs": [
 					{
 						"internalType": "contract Storage",
@@ -23,6 +29,43 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_samplestorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_samplestorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_samplestoragenumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -62,11 +105,11 @@
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0x8e4ba4c503fd97ed635c7fb942ce66af73f6cae1aeadd33170c97bb2ab8739f7",
+			"keccak256": "0x650e36669e4a0cf0ca2435f24ae57c2f425f77fe8ac5d27b9bfc709d113a69c6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://361d486b6533da4183a564ed1448cf444810604c82d12d3404679d178c080a40",
-				"dweb:/ipfs/QmR77Ejds9qgmKyR423ZAWxKP76JGcVB3UMuBNkNVz9jdZ"
+				"bzz-raw://bcc90e2e82ffb1990ef84ec02505555f842239bfcd4010756fa5d125c987bfb6",
+				"dweb:/ipfs/QmcSGQ4r7USfSMqM6ipCawTvCseD2RKwEvsAZUddVBW1eV"
 			]
 		}
 	},
