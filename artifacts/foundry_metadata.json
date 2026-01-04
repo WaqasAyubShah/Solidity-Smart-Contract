@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getHelloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/foundry.sol": "foundry"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/foundry.sol": {
+			"keccak256": "0x308ffdfc9cc1bbee6102c90a6db5951a7b25a2cd765e9409781576070f4ce719",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92403f3cea3ce45bbb9e7695002d8c8ad4073c6e0051805299cbbf3b108c10da",
+				"dweb:/ipfs/QmTybriqheC6KmcPTTgVDEAALqJJT4DBaULQ1Z9jxtfaW7"
+			]
+		}
+	},
+	"version": 1
+}
