@@ -56,3 +56,4 @@ contract StorageFactory{
         myStorage = new Storage();
     }
 }
+...
